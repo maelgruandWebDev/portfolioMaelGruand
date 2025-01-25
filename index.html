@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Maël Gruand</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Maël Gruand</h1>
+            <p>Web Developer</p>
+            <button id="theme-toggle" class="btn">Toggle Dark Mode</button>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="fade-in">
+            <h2>About Me</h2>
+            <p>
+                My name is Maël Gruand, a web developer passionate about web development and technological evolution. 
+                I was born in Cholet and lived one hour from the city of Nantes, France, until 2022. 
+                In 2022, I moved to Madrid, Spain, to complete my high school education.
+            </p>
+            <p>
+                Although I did not choose a scientific study path to focus on computer science, 
+                my passion for technology drives me to make it both my career and my main hobby.
+            </p>
+        </section>
+        <section id="skills" class="fade-in">
+            <h2>Skills</h2>
+            <div class="skill">
+                <p>HTML, CSS, JavaScript</p>
+                <div class="bar">
+                    <div class="progress" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Python</p>
+                <div class="bar">
+                    <div class="progress" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Interface Design</p>
+                <div class="bar">
+                    <div class="progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>SQL</p>
+                <div class="bar">
+                    <div class="progress" style="width: 75%;">75%</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="loan-calculator" class="fade-in">
+            <h2>Loan Calculator</h2>
+            <p>
+                Explore this web application built to calculate the user's age at the end of a loan period. It was designed using HTML, CSS, and JavaScript.
+            </p>
+            <div class="iframe-container">
+                <iframe 
+                    src="https://maelgruand1.github.io/CalculateurPret/enLoan/calculPret.html" 
+                    title="Loan Calculator"
+                    frameborder="0"
+                    loading="lazy"
+                    width="100%"
+                    height="500px"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+        
+        <section id="contact" class="fade-in">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:maelgruand@hotmail.com">maelgruand@hotmail.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Maël Gruand. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
