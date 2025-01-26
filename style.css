@@ -147,14 +147,13 @@ footer.dark {
 .iframe-container {
     position: relative;
     width: 100%;
-    padding-top: 20%; /* Ratio 16:9 */
+    padding-top: 56.25%; /* Ratio 16:9 */
     overflow: hidden;
     margin-bottom: 2rem;
     border: 2px solid #2c3e50;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    scrollbar-width: 1px;
-
+    
 }
 
 .iframe-container iframe {
